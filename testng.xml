@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Tcfrom16to20">
+  <test name="Place Order: Login before Checkout" >
+    <classes>
+      <class name="tests.TestCase16"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Remove Products From Cart">
+    <classes>
+      <class name="tests.TestCase17"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="View Category Products">
+    <classes>
+      <class name="tests.TestCase18"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="View and Cart Brand Products">
+    <classes>
+      <class name="tests.TestCase19"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Search Products and Verify Cart After Login">
+    <classes>
+      <class name="tests.TestCase20"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
